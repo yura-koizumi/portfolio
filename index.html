@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Azure Hosted</title>
+  <meta name="description" content="Azureでホストするポートフォリオサイトの初期ページ。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orbit"></div>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">YK</span>
+      <span class="brand-name">Yura Koizumi</span>
+    </div>
+    <nav class="site-nav" aria-label="主要ナビゲーション">
+      <a href="#services">Service</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="cta" href="#contact">相談する</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Azure Hosting / Web Portfolio</p>
+        <h1>
+          課題を整理し、
+          伝わるWebを。
+        </h1>
+        <p class="lead">
+          企画・設計・実装まで一気通貫でサポート。Azureホスティングに最適化した
+          速度と運用性の高いサイトを提供します。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">無料で相談</a>
+          <a class="btn ghost" href="#work">実績を見る</a>
+        </div>
+        <div class="hero-metrics">
+          <div>
+            <p class="metric">8+</p>
+            <p class="metric-label">プロジェクト</p>
+          </div>
+          <div>
+            <p class="metric">3週間</p>
+            <p class="metric-label">初期構築</p>
+          </div>
+          <div>
+            <p class="metric">99.9%</p>
+            <p class="metric-label">稼働率</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-header">
+          <span>Hosting Status</span>
+          <span class="pill">Azure</span>
+        </div>
+        <div class="card-body">
+          <p class="card-title">Portfolio v1.0</p>
+          <p class="card-desc">静的サイト / CDN / TLS</p>
+          <div class="progress">
+            <span>Deploy</span>
+            <div class="bar"><span></span></div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span class="tag">Fast</span>
+          <span class="tag">Secure</span>
+          <span class="tag">Maintainable</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-header">
+        <h2>提供できること</h2>
+        <p>要件整理から運用まで、迷わない設計を用意します。</p>
+      </div>
+      <div class="grid">
+        <article class="panel">
+          <h3>情報設計</h3>
+          <p>ユーザー動線とメッセージを整理し、伝わる構成を作成。</p>
+        </article>
+        <article class="panel">
+          <h3>UIデザイン</h3>
+          <p>ブランドに合う表現を、速度とアクセシビリティを両立して設計。</p>
+        </article>
+        <article class="panel">
+          <h3>Azure最適化</h3>
+          <p>Static Web Apps または App Service で安定稼働する構成に。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-header">
+        <h2>最近の実績</h2>
+        <p>制作物の一部を抜粋しています。</p>
+      </div>
+      <div class="grid">
+        <article class="panel work">
+          <div>
+            <h3>業務改善ポータル</h3>
+            <p>情報更新を容易にする設計。更新フローも整備。</p>
+          </div>
+          <span class="badge">Enterprise</span>
+        </article>
+        <article class="panel work">
+          <div>
+            <h3>教育機関向けLP</h3>
+            <p>閲覧速度を重視し、コンバージョンを最適化。</p>
+          </div>
+          <span class="badge">Landing</span>
+        </article>
+        <article class="panel work">
+          <div>
+            <h3>採用サイト</h3>
+            <p>ストーリー重視の構成で応募率を改善。</p>
+          </div>
+          <span class="badge">Branding</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-header">
+        <h2>お問い合わせ</h2>
+        <p>要件が固まっていなくても大丈夫です。</p>
+      </div>
+      <div class="contact-card">
+        <div>
+          <p class="contact-label">Email</p>
+          <p class="contact-value">hello@example.com</p>
+        </div>
+        <div>
+          <p class="contact-label">Availability</p>
+          <p class="contact-value">2026年3月〜</p>
+        </div>
+        <a class="btn primary" href="mailto:hello@example.com">メールで相談</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Yura Koizumi. Hosted on Azure.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
